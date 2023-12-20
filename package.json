@@ -1,0 +1,19 @@
+{
+  "name": "cypress-projekt",
+  "version": "1.0.0",
+  "description": "autometyzacja testow w cypress",
+  "main": "index.js",
+  "scripts": {
+    "checkbox": "cypress run --spec cypress/e2e/checkbox.cy.js"
+  },
+  "keywords": [
+    "automatyzacja",
+    "cypress",
+    "testy"
+  ],
+  "author": "Jola Nowak",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.1"
+  }
+}
